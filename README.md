@@ -2,10 +2,11 @@
 
 #### basic
 
-```bash
-Let len = 10;
-Let currentIndex = 0;
-
-const newIndex = (currentIndex + 1) % len;
-currentIndex = newIndex
+```js
+let len = 10;
+let currentIndex = 0;
+do {
+    let newIndex = (currentIndex + 1) % len;
+    currentIndex = newIndex
+} while(true)
 ```
